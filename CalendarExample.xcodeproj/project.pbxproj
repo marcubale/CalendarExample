@@ -13,6 +13,8 @@
 		56885F27282342CE006B0038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56885F25282342CE006B0038 /* Main.storyboard */; };
 		56885F29282342CE006B0038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56885F28282342CE006B0038 /* Assets.xcassets */; };
 		56885F2C282342CE006B0038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56885F2A282342CE006B0038 /* LaunchScreen.storyboard */; };
+		56CE89C42825525500DDCE55 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CE89C32825525500DDCE55 /* CalendarCell.swift */; };
+		56CE89C628255D2300DDCE55 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CE89C528255D2300DDCE55 /* CalendarHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		56885F28282342CE006B0038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56885F2B282342CE006B0038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56885F2D282342CE006B0038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56CE89C32825525500DDCE55 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		56CE89C528255D2300DDCE55 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 				56885F21282342CE006B0038 /* SceneDelegate.swift */,
 				56885F23282342CE006B0038 /* ViewController.swift */,
 				56885F25282342CE006B0038 /* Main.storyboard */,
+				56CE89C528255D2300DDCE55 /* CalendarHelper.swift */,
 				56885F28282342CE006B0038 /* Assets.xcassets */,
 				56885F2A282342CE006B0038 /* LaunchScreen.storyboard */,
 				56885F2D282342CE006B0038 /* Info.plist */,
+				56CE89C32825525500DDCE55 /* CalendarCell.swift */,
 			);
 			path = CalendarExample;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56CE89C628255D2300DDCE55 /* CalendarHelper.swift in Sources */,
 				56885F24282342CE006B0038 /* ViewController.swift in Sources */,
 				56885F20282342CE006B0038 /* AppDelegate.swift in Sources */,
 				56885F22282342CE006B0038 /* SceneDelegate.swift in Sources */,
+				56CE89C42825525500DDCE55 /* CalendarCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,13 +295,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X92FTJXVKS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CalendarExample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CalendarExample;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,13 +325,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X92FTJXVKS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CalendarExample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CalendarExample;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
